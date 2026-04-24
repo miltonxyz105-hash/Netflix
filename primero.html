@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primero</title>
+
+    <style>
+        body {
+            background-image: url("img/salchichin.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: rgb(255, 252, 252);
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+        }
+
+        .centrada {
+            display: block;
+            margin: 20px auto;
+        }
+
+        button {
+            background-color: rgb(15, 15, 15);
+            color: rgb(236, 236, 236);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 10px auto;
+            display: block;
+        }
+
+        a {
+            color: white;
+            font-size: 18px;
+            display: block;
+            margin: 10px auto;
+            text-decoration: underline;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+        }
+
+        td {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="img/jajaja.png" width="150" height="150" class="centrada">
+
+    <h1>Hola, esta es mi primera<br>página localhost</h1>
+
+    <p>Me gusta más Python la verdad</p>
+
+    <button onclick="alert('este botón no sirve jajaj')">Click me</button>
+
+    <a href="https://web.whatsapp.com/" target="_blank">
+        Ir a WhatsApp Web
+    </a>
+
+    <table border="10" cellpadding="10" cellspacing="0" align="center">
+        <thead bgcolor="blue">
+            <tr>
+                <td rowspan="2">Producto</td>
+                <td rowspan="3">Precio</td>
+                <td rowspan="3">Stock</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop</td>
+                <td>$899</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Mouse</td>
+                <td>$25</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
